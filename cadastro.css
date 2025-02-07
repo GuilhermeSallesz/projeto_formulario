@@ -1,0 +1,89 @@
+html{
+  background-color: rgba(255, 175, 2, 0.795);
+  font-family: roboto;
+  color: white;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+form{
+  width: 90%;
+  min-width: 29.1253em;
+  max-width: 35em;
+ background-color: black;
+ padding: 1em;
+border-radius: 15px;
+border-left: 10px solid rgba(255, 175, 2, 0.795);
+}
+
+fieldset{
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+label,input,textarea{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+border-radius: 2em;
+}
+
+input,textarea{
+background-color:rgba(235, 233, 230, 0.795);
+border: 2px solid transparent;
+border-bottom-color: #e78505c2;
+padding: .85em;
+margin: .5em 0 .3em;
+color: white;
+outline: 0;
+}
+
+legend{
+  padding:2em;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.btn{
+  background-color: rgba(255, 175, 2, 0.795);
+  color: rgb(12, 11, 11);
+  cursor: pointer;
+  padding: 1em;
+  font-size: 1em;
+  border: none;
+  border-radius: 1em;
+}
+
+.lgn{
+  background-color: rgba(255, 175, 2, 0.795);
+  color: rgb(12, 11, 11);
+  cursor: pointer;
+  padding: 1em;
+  font-size: 1em;
+  border: none;
+  border-radius: 1em;
+}
+
+.lgn1{
+  text-align:right;
+}
+
+.cadas{
+  text-align: right;
+
+}
+
+.fça{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  }
